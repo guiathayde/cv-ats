@@ -1,3 +1,15 @@
+import { AppProvider } from './hooks';
+
+import { GlobalStyle } from './styles/global';
+
+import { Home } from './pages/Home';
+
 export function App() {
-  return <h1>Guilherme César Athayde - Curriculum Vitae</h1>;
+  return (
+    <AppProvider>
+      <GlobalStyle />
+
+      <Home />
+    </AppProvider>
+  );
 }

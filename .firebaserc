@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "guiathayde-dev"
+  },
+  "targets": {
+    "guiathayde-dev": {
+      "hosting": {
+        "cv-guiathayde": [
+          "cv-guiathayde"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
